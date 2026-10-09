@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="28" fill="#07080B" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <!-- Chalk stroke -->
+  <path d="M 36 92 L 102 92" stroke="#F8FAFC" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <!-- Angled Chalk Stick -->
+  <g transform="translate(64, 58) rotate(45)">
+    <rect x="-8" y="-36" width="16" height="60" fill="#F8FAFC" rx="2"/>
+    <path d="M -8 24 L 0 38 L 8 24 Z" fill="#FFFFFF"/>
+    <line x1="-7" y1="-34" x2="-7" y2="24" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+</svg>
