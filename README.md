@@ -37,7 +37,9 @@ open Chalk.app
 > **macOS Gatekeeper:** Because Chalk is an open-source binary distributed outside the Mac App Store, macOS may display a security prompt (*"cannot be opened because Apple cannot check it for malicious software"*). Running `xattr -cr Chalk.app` in Terminal clears the quarantine attribute. Alternatively, right-click (or Control-click) `Chalk.app` in Finder, select **Open**, and confirm **Open**.
 
 #### Windows (PowerShell)
-```powershell
+
+
+> **Windows SmartScreen:** If Microsoft Defender SmartScreen displays an *"unrecognized app"* prompt upon launch, click **More info** → select **Run anyway**.```powershell
 curl -L -O https://github.com/getchalk/chalk/releases/latest/download/Chalk-Setup.exe
 .\Chalk-Setup.exe
 ```
