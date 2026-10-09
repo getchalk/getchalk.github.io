@@ -1,2 +1,46 @@
-# getchalk.github.io
-Chalk listens, captures your screen, and writes structured notes with live LaTeX formulas, slide synchronization, and a zero-install QR whiteboard camera. 100% local-first privacy with direct BYOK — engineered for university lectures, technical reviews, and executive meetings. Seamless 1-click Markdown export to Obsidian.
+# Chalk — Official Web Portal & Downloads
+
+> **Live Website:** [getchalk.github.io](https://getchalk.github.io)  
+> **Source Repository:** [github.com/getchalk/chalk](https://github.com/getchalk/chalk)  
+> **Latest Releases:** [github.com/getchalk/chalk/releases](https://github.com/getchalk/chalk/releases)
+
+---
+
+### Overview
+
+Chalk is a 100% local-first desktop lecture and meeting companion with live LaTeX synthesis. It captures dual-channel hardware audio and slide transitions, accepts whiteboard photos via a zero-install local QR link, and generates structured Markdown notes with mathematically verified LaTeX formulas in real time.
+
+### Platform Downloads
+
+| Operating System | Architecture | Package Format | Download Link |
+|---|---|---|---|
+| **macOS** | Apple Silicon (M1/M2/M3/M4) & Intel | Standalone Application Bundle (`.zip`) | [Download for macOS](https://github.com/getchalk/chalk/releases/latest/download/Chalk-macOS.zip) |
+| **Windows** | 64-Bit (x64) | Standalone Executable (`.exe`) | [Download for Windows](https://github.com/getchalk/chalk/releases/latest/download/Chalk-Setup.exe) |
+
+---
+
+### Terminal Quick Install
+
+#### macOS
+```bash
+curl -L -O https://github.com/getchalk/chalk/releases/latest/download/Chalk-macOS.zip
+unzip Chalk-macOS.zip
+open Chalk.app
+```
+
+#### Windows (PowerShell)
+```powershell
+curl -L -O https://github.com/getchalk/chalk/releases/latest/download/Chalk-Setup.exe
+.\Chalk-Setup.exe
+```
+
+---
+
+### Architecture & Security
+
+- **Direct BYOK Only:** No middleman proxy servers. Requests travel directly over TLS 1.3 from your machine to official provider endpoints (Google AI Studio, Anthropic, OpenAI).
+- **Zero Telemetry:** 0 KB of tracking or telemetry data collected (§ 165 TKG / GDPR compliant).
+- **Encrypted Local Vault:** Credentials stored strictly inside macOS Keychain Access or Windows DPAPI.
+- **Local Storage:** Audio journals, slide keyframes, and notes reside exclusively on your workstation under `~/.chalk/sessions/`.
+
+For full documentation, source code, and developer instructions, visit the main repository at [github.com/getchalk/chalk](https://github.com/getchalk/chalk).
